@@ -1,0 +1,23 @@
+CREATE DATABASE bdEtec
+
+GO
+
+USE bdEtec
+
+CREATE TABLE tb2A(
+	rmAluno CHAR(5) PRIMARY KEY NOT NULL
+	, nomeAluno VARCHAR(40) NOT NULL
+	, statusAluno VARCHAR(9) NOT NULL
+)
+
+CREATE TABLE tb2B(
+	rmAluno CHAR(5) PRIMARY KEY NOT NULL
+	, nomeAluno VARCHAR(40) NOT NULL
+	, statusAluno VARCHAR(9) NOT NULL
+)
+
+CREATE TABLE tb3(
+	rmAluno CHAR(5) PRIMARY KEY NOT NULL
+	, nomeAluno VARCHAR(40) NOT NULL
+	, statusAluno VARCHAR(9) NOT NULL
+)
